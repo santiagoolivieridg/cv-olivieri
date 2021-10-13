@@ -1,0 +1,25 @@
+.entry{
+  margin-top: .8em;
+  margin-bottom: .8em;
+  margin-left: .4em;
+    
+    a{
+    color: #222;
+    opacity: .7;
+    text-decoration: none;
+    &:hover {
+      color: inherit;
+      opacity: 1;
+    }
+  }
+}
+
+img[src="https://pbs.twimg.com/profile_images/1259719811296309249/um6CLRiM_400x400.jpg"] {
+  border-radius: 50%;
+}
+
+.float {
+  position: fixed;
+  right: 1em;
+  bottom: 2.5em;
+}
