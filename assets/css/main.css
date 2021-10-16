@@ -1,3 +1,21 @@
+body {
+  color: #2B2C34;
+}
+
+#name {
+  color: #6246EA;
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #2B2C34;
+}
+
+.card-header {
+  background-color: #D1D1E9;
+  border-bottom: 1px solid #2B2C34;
+}
+
 .entry {
   margin-top: .8em;
   margin-bottom: .8em;
@@ -5,18 +23,26 @@
 }
 
 .entry a {
-  color: #222;
-  opacity: .7;
+  color: rgba(43, 44, 52, 0.75);
   text-decoration: none;
 }
 
 .entry a:hover {
-  color: inherit;
-  opacity: 1;
+  color: #2b2c34;
 }
 
 img[src="https://pbs.twimg.com/profile_images/1259719811296309249/um6CLRiM_400x400.jpg"] {
   border-radius: 50%;
+}
+
+.btn-primary {
+  background-color: rgba(43, 44, 52, 0.9);
+  border: 1px solid rgba(43, 44, 52, 0.9);
+}
+
+.btn-primary:hover {
+  background-color: #2B2C34;
+  border: 1px solid #2B2C34;
 }
 
 .float {
